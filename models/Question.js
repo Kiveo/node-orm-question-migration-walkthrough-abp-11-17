@@ -10,6 +10,7 @@ class Question{
         question TEXT,
       )
     `
+    console.log("Preparing to create Table questions");
   }
 }
 
