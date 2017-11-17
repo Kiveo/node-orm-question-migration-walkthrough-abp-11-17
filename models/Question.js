@@ -6,6 +6,10 @@ const sqlite3 = require('sqlite3').verbose()
 
 //added class
 class Question{
+  constructor (id, question) {
+    this.id = id;
+    this.question = question;
+  }
   static function CreateTable() {
     const sql = `
       CREATE TABLE IF NOT EXISTS questions (
