@@ -1,7 +1,10 @@
 'use strict';
-
+//pre coded
 const db = require("../config/db")
+//added next
+const sqlite3 = require('sqlite3').verbose()
 
+//added class 
 class Question{
   static function CreateTable() {
     const sql = `
