@@ -10,6 +10,10 @@ class Question{
     this.id = id;
     this.question = question;
   }
+
+  insert() {
+    const self = this;
+  }
   static function CreateTable() {
     const sql = `
       CREATE TABLE IF NOT EXISTS questions (
