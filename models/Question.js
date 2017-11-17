@@ -11,7 +11,7 @@ class Question{
     const sql = `
       CREATE TABLE IF NOT EXISTS questions (
         id INTEGER PRIMARY KEY,
-        content TEXT,
+        content TEXT
       )
     `
     console.log("Preparing to create Table questions...");
