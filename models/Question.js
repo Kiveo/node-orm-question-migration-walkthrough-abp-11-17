@@ -5,7 +5,7 @@ const db = require("../config/db")
 const sqlite3 = require('sqlite3').verbose()
 
 //added class
-static class Question{
+class Question{
   static function CreateTable() {
     const sql = `
       CREATE TABLE IF NOT EXISTS questions (
